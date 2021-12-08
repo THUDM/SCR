@@ -1,4 +1,4 @@
-# GAMLP/SAGN + MCR/SCR
+# CRGNN
 
 Paper ： 
 ## Environments

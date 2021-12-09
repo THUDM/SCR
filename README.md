@@ -1,6 +1,6 @@
 # CRGNN
 
-Paper ： 
+Paper ： [Improving the Training of Graph Neural Networks with Consistency Regularization](https://arxiv.org/abs/2112.04319)
 ## Environments
 
 Implementing environment: GeForce RTX™ 3090 24GB (GPU)

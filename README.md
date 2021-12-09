@@ -118,7 +118,14 @@ Performance on **ogbn-products**(10 runs):
 ## Citation
 Our paper:
 ```
-
+@misc{zhang2021improving,
+      title={Improving the Training of Graph Neural Networks with Consistency Regularization}, 
+      author={Chenhui Zhang and Yufei He and Yukuo Cen and Zhenyu Hou and Jie Tang},
+      year={2021},
+      eprint={2112.04319},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI}
+}
 ```
 
 GIANT paper:

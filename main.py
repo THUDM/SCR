@@ -220,10 +220,10 @@ def run(args, device):
                         loss, acc = train(model, feats, labels, device, loss_fcn, optimizer, train_loader, label_emb, evaluator,args, ema)
                     elif stage != 0 and args.consis == True:
                         loss, acc = train_rlu_consis(model, train_loader, enhance_loader, optimizer, evaluator, device, feats, labels,
-                                          label_emb, predict_prob, args, enhance_loader_cons)
+                                          label_emb, predict_prob, args, enhance_loader_cons,ema)
                     elif stage != 0 and args.consis == False:
                         loss, acc = train_rlu(model, train_loader, enhance_loader, optimizer, evaluator, device, feats, labels,
-                                              label_emb, predict_prob, args.gama)
+                                              label_emb, predict_prob, args.gama,ema)
                 else:
                     if epoch < (args.warm_up + 1) :
                         if stage == 0:

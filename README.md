@@ -16,7 +16,7 @@ ogb=1.3.2
 
 numpy=1.21.2
 
-cogdl (latest version)
+cogdl>=0.5.2
 
 ## Training
 
@@ -131,6 +131,16 @@ Our paper:
 }
 ```
 
+CogDL paper:
+```
+@article{cen2021cogdl,
+    title={CogDL: Toolkit for Deep Learning on Graphs},
+    author={Yukuo Cen and Zhenyu Hou and Yan Wang and Qibin Chen and Yizhen Luo and Xingcheng Yao and Aohan Zeng and Shiguang Guo and Peng Zhang and Guohao Dai and Yu Wang and Chang Zhou and Hongxia Yang and Jie Tang},
+    journal={arXiv preprint arXiv:2103.00959},
+    year={2021}
+}
+```
+
 GIANT paper:
 ```
 @article{chien2021node,
@@ -149,8 +159,6 @@ GAMLP paper:
   year={2021}
 }
 ```
-
-
 SAGN paper:
 
 ```
@@ -163,7 +171,6 @@ SAGN paper:
 ```
 
 C&S paper:
-
 ```
 @inproceedings{
 huang2021combining,

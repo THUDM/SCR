@@ -1,4 +1,4 @@
-# CRGNN
+# SCR
 
 Paper ：[Improving the Training of Graph Neural Networks with Consistency Regularization](https://arxiv.org/abs/2112.04319)
 

@@ -1,6 +1,6 @@
 # SCR
 
-Paper ：[Improving the Training of Graph Neural Networks with Consistency Regularization](https://arxiv.org/abs/2112.04319)
+Paper ：[SCR: Training Graph Neural Networks with Consistency Regularization](https://arxiv.org/abs/2112.04319)
 
 **CogDL : a popular toolkit for deep learning on graphs.🎉 [\[GitHub\]](https://github.com/THUDM/cogdl)**
 

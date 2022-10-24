@@ -102,7 +102,7 @@ def load_dataset(name, device, args):
     train_nid = splitted_idx["train"]
     val_nid = splitted_idx["valid"]
     test_nid = splitted_idx["test"]
-    g, _ = dataset[0]
+    g, labels = dataset[0]
     #g = None
     n_classes = dataset.num_classes
     labels = labels.squeeze()
